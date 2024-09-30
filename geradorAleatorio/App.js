@@ -37,7 +37,7 @@ export default function App() {
         onChangeText={setUserNumber}
         maxLength={2}
       />
-      <Button title="Confirm Answer" onPress={handleConfirm} />
+      <Button title="tentar a sorte" onPress={handleConfirm} />
       {resultMessage ? <Text>{resultMessage}</Text> : null}
       <StatusBar style="auto" />
     </View>
